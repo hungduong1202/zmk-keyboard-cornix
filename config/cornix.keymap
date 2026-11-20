@@ -194,10 +194,10 @@
             //               | GUI | ALT  | CTRL | LOWER|  ENTER |  | SPACE | RAISE| CTRL  | ALT   | GUI  |
 
             bindings = <
-&kp TAB           &kp Q          &kp W         &kp E         &kp R                &kp T                      &kp Y      &kp U                &kp I         &kp O         &kp P             &kp BACKSPACE
-&kp LEFT_CONTROL  &hm_l LCTRL A  &hm_l LALT S  &hm_l LGUI D  &hm_shift_l LSHFT F  &kp G                      &kp H      &hm_shift_r RSHFT J  &hm_r RGUI K  &hm_r RALT L  &hm_r RCTRL SEMI  &kp SQT
-&kp LEFT_SHIFT    &kp Z          &kp X         &kp C         &kp V                &kp B        &none  &none  &kp N      &kp M                &kp COMMA     &kp DOT       &kp FSLH          &kp RIGHT_SHIFT
-&none             &none          &none         &kp LEFT_ALT  &kp LEFT_GUI         &lt 1 ENTER                &kp SPACE  &mo 2                &kp LC(A)     &none         &none             &none
+&kp TAB           &kp Q          &kp W         &kp E         &kp R                &kp T                                         &kp Y      &kp U                &kp I         &kp O         &kp P             &kp BACKSPACE
+&kp LEFT_CONTROL  &hm_l LCTRL A  &hm_l LALT S  &hm_l LGUI D  &hm_shift_l LSHFT F  &kp G                                         &kp H      &hm_shift_r RSHFT J  &hm_r RGUI K  &hm_r RALT L  &hm_r RCTRL SEMI  &kp SQT
+&kp LEFT_SHIFT    &kp Z          &kp X         &kp C         &kp V                &kp B        &kp K_PLAY_PAUSE  &kp LG(LC(Q))  &kp N      &kp M                &kp COMMA     &kp DOT       &kp FSLH          &kp RIGHT_SHIFT
+&none             &none          &none         &kp LEFT_ALT  &kp LEFT_GUI         &lt 1 ENTER                                   &kp SPACE  &mo 2                &kp LC(A)     &none         &none             &none
             >;
 
             sensor-bindings =
